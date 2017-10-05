@@ -1,0 +1,8 @@
+#
+# Inspect, tools to inspect a kmom.
+#
+# Usage: dbwebb inspect kmom01
+#
+# Sequence executed:
+# python(), pythonkmom01(), pythonlast()
+#
