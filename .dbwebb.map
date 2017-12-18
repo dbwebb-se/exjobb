@@ -4,9 +4,9 @@
 # Map item to dirname while doing, for example, dbwebb validate lab1
 #
 
-me/topic
-me/proposal
-me/paper
-me/opposition
-me/project
-me/other
+me/1_input
+me/2_topic
+me/3_proposal
+me/4_paper
+me/5_opposition
+me/6_other
