@@ -19,13 +19,17 @@ Skriv ett stycke (5-10 meningar) om bakgrunden till ditt arbete, vem som är kun
 Fokusområden 
 ---------------------
 
-Vad planerar du att undersöka? Hur avgränsar du arbetet? Punktlista fokusområden och beskriv dem kort.
+Vad planerar du att undersöka? Inled med en kort och tydlig introduktion i ett stycke.
 
-Specificera preliminära frågeställningar.
+Punktlista fokusområden och beskriv dem kort.
+
+Specificera preliminära frågeställningar du ämnar försöka besvara.
 
 Specificera preliminära mål, vad vill du uppnå.
 
-Tänk på att försöka avgränsa dig så området inte blir för omfattande. Kanske bör du prioritera redan nu.
+Hur avgränsar du arbetet, berätta vad som inte ingår i din studie, så att det blir tydligt.
+
+Tänk på att försöka avgränsa dig så området inte blir för omfattande. Kanske bör du prioritera redan nu, kanske fokusera på ett smalare område? Fundera.
 
 
 
