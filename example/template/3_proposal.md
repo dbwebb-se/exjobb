@@ -21,11 +21,15 @@ Fokusområden
 
 Förfina från topicen, inkludera referenser.
 
+Vad planerar du att undersöka? Inled med en kort och tydlig introduktion i ett stycke.
+
 Specificera frågeställningar, 3-5 frågor. Dessa skall kontunuerligt granskas och uppdateras under arbetets gång. Dessa är de frågeställningar ditt arbete skall besvara.
 
 Specificera mål, vad vill du uppnå med arbetet, vad avser du leverera när du är klar, rapport, annat?
 
-Har du avgränsat dig tillräckligt, behöver du avgränsa mer och prioritera ditt arbete?
+Hur avgränsar du arbetet, berätta vad som inte ingår i din studie, så att det blir tydligt.
+
+Har du avgränsat dig tillräckligt? Har du ett tydligt fokus? Låter ditt arbete intressant?
 
 
 
@@ -43,7 +47,8 @@ När det gäller litteraturstudier kan det till exempel vara intressant att se h
 Beskriv hur du tänker utföra arbetet i övrigt.
 
 * En tydlig beskrivning på hur arbetet skall genomföras (implementation, utvärdering, case study, experiment, intervju, survey, annat)
-* Vilken data skall samlas in och hur skall den samlas in?
+* Vilken data skall samlas in, när och hur skall den samlas in?
+* Hur tänker du använda datan och värdera, analysera den?
 
 
 
