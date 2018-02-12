@@ -21,7 +21,7 @@ Fokusområden
 
 Vad planerar du att undersöka? Inled med en kort och tydlig introduktion i ett stycke.
 
-Punktlista fokusområden och beskriv dem kort.
+Punktlista dina olika fokusområden och beskriv dem kort.
 
 Specificera preliminära frågeställningar du ämnar försöka besvara.
 
@@ -30,6 +30,16 @@ Specificera preliminära mål, vad vill du uppnå.
 Hur avgränsar du arbetet, berätta vad som inte ingår i din studie, så att det blir tydligt.
 
 Tänk på att försöka avgränsa dig så området inte blir för omfattande. Kanske bör du prioritera redan nu, kanske fokusera på ett smalare område? Fundera.
+
+
+
+Samla, analysera, värdera 
+---------------------
+
+Finns det data/mätvärden som samlas in? På vilket sätt?
+Hur tänker du analysera dessa data för att komma fram till ett resultat?
+
+Kanske handlar det om en metod, vilken data/mätvärden samlas in, när sker insamlingen, på vilket sätt samlas data in?
 
 
 
