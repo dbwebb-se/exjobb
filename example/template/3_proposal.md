@@ -19,7 +19,7 @@ Använd dina referenser inuti texten.
 Fokusområden 
 ---------------------
 
-Förfina från topicen, inkludera referenser.
+Förfina från topicen.
 
 Vad planerar du att undersöka? Inled med en kort och tydlig introduktion i ett stycke.
 
