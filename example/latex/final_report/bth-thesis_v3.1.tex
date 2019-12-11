@@ -1,0 +1,329 @@
+\documentclass[a4paper,twoside]{bth}
+
+% BTH THESIS TEMPLATE
+%--------------------
+% Please change the data below appropriately to fit your thesis.
+% The data will be used to generate text in various places on the
+% thesis front and inner pages.
+%--------------------
+
+% DEGREE NAME. The degree name you are submitting your thesis for.
+% This must be one of the following:
+% Diploma programmes
+%    Higher Education Diploma in Software Engineering with emphasis in Web Programming
+% Bachelor programmes:
+%    Bachelor of Science in Computer Science
+%    Bachelor of Science in Digital Game Development
+%    Bachelor of Science in Software Engineering
+% Master programmes:
+%    Master of Science in Computer Science
+%    Master of Science in Software Engineering
+%    Master of Science in Telecommunication Systems
+% Civilingenjör programmes:
+%    Master of Science in Engineering: Computer Security
+%    Master of Science in Engineering: Game and Software Engineering
+%    Master of Science in Engineering: Marine Engineering
+%    Master of Science in Industrial Management and Engineering
+%    Master of Science in Mechanical Engineering
+\newcommand{\thesisDegree}{Higher Education Diploma in Software Engineering with emphasis in Web Programming}
+
+% DATE. The month year when your final report was submitted.
+\newcommand{\thesisMonth}{June}
+\newcommand{\thesisYear}{2020}
+
+% FACULTY.
+% Must be either Computing or Engineering.
+\newcommand{\faculty}{Computing}
+
+% COURSE TIME. Course time in weeks.
+% For a 15 credits course this should be 10 and
+% for a 30 credits course, this should be 20 weeks.
+% Note that the week figure is the same whether you work alone or in a pair.
+\newcommand{\thesisWeeks}{10}
+
+% TITLE.
+\newcommand{\thesisTitle}{Centered Title in Font Times (Size 24 Bold)}
+
+% SUBTITLE.
+% If you dont have a subtitle, please delete the text in the last parenthesis.
+\newcommand{\thesisSubtitle}{Centered Subtitle in Font Times (Size 16 Bold)}
+
+% AUTHORS.
+% Please replace with your first name(s) and last name(s). There can be several of each.
+\newcommand{\authorFirst}{Firstname1 Lastname1}
+\newcommand{\authorFirstMail}{...@student.bth.se}
+% If there is no second author, please delete the texts in the last parentheses.
+\newcommand{\authorSecond}{Firstname2 Lastname2}
+\newcommand{\authorSecondMail}{...@student.bth.se}
+
+% SUPERVISOR.
+% Please replace with title, first and last names of your academic supervisor.
+\newcommand{\super}{Title Firstname Lastname}
+% Please replace with the name of the department of your academic supervisor, e.g.,
+% Computer Science, Software Engineering, etc.
+\newcommand{\superAffiliation}{Computer Science}
+
+
+% PACKAGES AND COMMANDS START
+%----------------------------
+% please do not delete or change anything before the END of this section
+\usepackage{amsmath}
+\usepackage{mathenv}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{pifont}
+\usepackage{changepage}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage{xtab}
+%\usepackage[sort&compress]{natbib} % Don't use natbib, since it interferes with the style.
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[color=blue!10,textsize=footnotesize,textwidth=25mm]{todonotes}
+\DeclareGraphicsExtensions{.pdf}
+
+\newtheorem{lem}{\textsc{Lemma}}[chapter]
+\newtheorem{thm}{\textsc{Theorem}}[chapter]
+\newtheorem{prop}{\textsc{Proposition}}[chapter]
+\newtheorem{post}{Postulate}[chapter]
+\newtheorem{corr}{\textsc{Corollary}}[chapter]
+\newtheorem{defs}{\textsc{Definition}}[chapter]
+\newtheorem{cons}{\textsc{Constraint}}[chapter]
+\newtheorem{ex}{\textbf{Example}}[chapter]
+\newtheorem{qu}{\textbf{Question}}[chapter]
+% -------------------------
+% PACKAGES AND COMMANDS END
+
+
+% DOCUMENT BEGINS HERE
+\begin{document}
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+% THESIS FRONT PAGE (please do not change)
+% ----------------------------------------
+{\pagestyle{empty}
+\changepage{3cm}{1cm}{-0.5cm}{-0.5cm}{}{-1.5cm}{}{}{}
+\noindent
+\begin{tabular}{@{}p{0.75\textwidth} p{0.25\textwidth}}
+\thesisDegree & \hfill\multirow{3}{*}{\bthcsnotextlogo{3cm}} \\
+\thesisMonth \ \thesisYear & \\
+\end{tabular}
+
+%\begin{center}
+\center
+
+\vspace {7.5cm}
+
+{\Huge\textbf{\thesisTitle}}
+
+\vspace {0.5cm}
+
+{\Large\textbf{\thesisSubtitle}}
+
+\vspace {2cm}
+
+{\Large\textbf{\authorFirst \\*[0.25cm] \authorSecond}}
+
+\vspace*{\fill}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}}
+Faculty of \faculty, Blekinge Institute of Technology, 371 79 Karlskrona, Sweden
+%\end{center}
+
+\clearpage
+} % Back to \pagestyle{plain}
+% ----------------------------------------
+
+
+% THESIS INNER PAGE (please do not change)
+% ----------------------------------------
+{\pagestyle{empty}
+\changepage{3cm}{1cm}{-0.5cm}{-0.5cm}{}{-1.5cm}{}{}{}
+
+{\small
+\noindent
+This thesis is submitted to the Faculty of \faculty\ at Blekinge Institute
+of Technology in partial fulfilment of the requirements for the degree of
+\thesisDegree. The thesis is equivalent to \thesisWeeks\ weeks of full time studies.
+
+\vspace{1cm}
+
+\noindent
+The authors declare that they are the sole authors of this thesis and that they have
+not used any sources other than those listed in the bibliography and identified as references.
+They further declare that they have not submitted this thesis at any other institution to
+obtain a degree.
+}
+
+\vspace{10cm}
+
+\noindent
+\textbf{Contact Information:} \\
+Author(s): \\
+\authorFirst \\
+E-mail: \authorFirstMail \\
+\\
+\authorSecond \\
+E-mail: \authorSecondMail
+
+\vspace{2cm}
+
+\noindent
+University advisor: \\
+\super \\
+Department of \superAffiliation
+
+\vspace*{\fill}
+
+\noindent
+\begin{tabular}{@{}p{0.5\textwidth} l c l}
+Faculty of \faculty              & Internet & : & www.bth.se \\
+Blekinge Institute of Technology & Phone    & : & +46 455 38 50 00 \\
+SE--371 79 Karlskrona, Sweden    & Fax      & : & +46 455 38 50 57 \\
+\end{tabular}
+\clearpage
+} % Back to \pagestyle{plain}
+% ----------------------------------------
+
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% YOUR TEXTS START HERE
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ABSTRACT IN ENGLISH
+% -------------------
+\abstract
+\noindent
+\textbf{Background.} ... \newline
+\textbf{Objectives.} ... \newline
+\textbf{Methods.} ... \newline
+\textbf{Results.} ... \newline
+\textbf{Conclusions.} ...
+
+\vspace{1cm}
+% You can list 3-4 keywords, maximum 2 of these from the title;
+% starts 1 line below the abstract.
+\noindent
+\textbf{Keywords:} 3--5 keywords, at most 2 of these should appear in the title, starts 1 line
+below the abstract.
+
+\cleardoublepage
+% -------------------
+
+
+% ABSTRACT IN SWEDISH
+% -------------------
+\sammanfattning
+\todo[inline]{A Swedish abstract is only needed for ``civilingenjör'' theses.}
+\noindent
+\textbf{Bakgrund.} ... \newline
+\textbf{Syfte.} ... \newline
+\textbf{Metod.} ... \newline
+\textbf{Resultat.} ... \newline
+\textbf{Slutsatser.} ...
+
+\vspace{1cm}
+% You can list 3-4 keywords, maximum 2 of these from the title;
+% starts 1 line below the abstract.
+\noindent
+\textbf{Nyckelord:} 3--5 nyckelord, maximal 2 från titeln, börjar 1 rad under sammanfattningen.
+
+\cleardoublepage
+% -------------------
+
+
+% ACKNOWLEDGEMENTS
+% -------------------
+\acknowledgments % Optional, comment out this part if not needed
+\noindent
+Here you can add your acknowledgements.
+
+\cleardoublepage
+% -------------------
+
+
+% TABLE OF CONTENTS PAGES (generated by LaTeX using the command(s) below)
+% You should uncomment the commands you need.
+\tableofcontents
+%\listoffigures             % in case you have them
+%\listoftables              % in case you have them
+%\listofalgorithms          % in case you have them
+
+\cleardoublepage
+\pagestyle{headings}
+\pagenumbering{arabic}
+
+
+%------------------------------
+% THE ACTUAL THESIS STARTS HERE
+% The chapters below are just suggestions and need to be adapted to your topic.
+
+\chapter{Introduction}
+\label{sec:introduction}  % labels are used for cross references
+The chapters in this template are just suggestions.
+Please note that there is no ``one-size-fits-all'' structure that fits all types of theses.
+You should therefore use chapter, section and subsection headers that are specifically
+adapted to your topic. Preferably, you should formulate your headers (and lists in general)
+in so-called parallel form or structure.
+If you do not remember what that means, now is the time to refresh your memory.
+
+Please make sure to get your citations and references correct and consistent.
+Just copying/pasting information from GoogleScholar is insufficient,
+since the citation information at GoogleScholar is often incorrect and/or incomplete.
+Please see the course textbooks, e.g., \cite{berndtsson2007thesis,evans2014write,zobel2014writing}
+for more information about the handling of citations and references.
+
+\todo[inline]{Notes like this can be useful for your own comments. You can hide all them
+at once by adding \texttt{disable} to the list of parameters to the command
+\texttt{\textbackslash usepackage[color=blue!10,textsize=footnotesize,textwidth=25mm]{todonotes}}.}
+
+
+\chapter{Related Work}
+
+
+\chapter{Method}
+
+
+\chapter{Results}
+
+
+\chapter{Analysis and Discussion}
+
+
+\chapter{Conclusions and Future Work}
+
+
+% All references are in a separate file: thesis-refs.bib
+\bibliography{thesis-refs}
+\bibliographystyle{plain}
+
+\appendix
+\chapter{Supplemental Information}
+
+
+% DO NOT CHANGE BELOW
+% This part makes sure that the last page is even with BTH-logo.
+% -------------------
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{\fill}
+\clearpage{\thispagestyle{empty}}
+\changepage{3cm}{1cm}{-0.5cm}{-0.5cm}{}{-1.5cm}{}{}{}
+\vspace*{\fill}
+\center
+
+{\bthcsnotextlogo{3cm}}
+\\
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}}
+Faculty of \faculty, Blekinge Institute of Technology, 371 79 Karlskrona, Sweden
+% -------------------
+
+\end{document}

@@ -1,0 +1,180 @@
+%
+% Project plan for degree project (TE2502)
+% Template version: Don't forget to update when updating the template
+\newcommand{\theVersion}{1.4 -- April 28, 2019}
+%
+\documentclass[12pt,a4paper,twoside]{article}
+\usepackage{times}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+% --------------------------------------------
+% package "todonotes" is used for notes and comments
+% To disable all notes you can use the option "disable", see second row below:
+\usepackage[color=blue!10,textsize=footnotesize,textwidth=25mm]{todonotes}
+%\usepackage[disable]{todonotes} %passive=do not show
+% --------------------------------------------
+\usepackage[sort&compress]{natbib}
+\usepackage{enumitem}
+\setlist{topsep=1ex,itemsep=0.5ex,parsep=0pt,partopsep=0pt}  % this sets the vertical spacing between list items and surrounding parapgraphs
+\setlength{\bibsep}{4pt}
+
+% Redefine the course code and name.
+% PA1438: Självständigt arbete i Webbprogrammering
+% PA1438: Diploma project in Web Programming
+\newcommand{\theCourse}{PA1438: Diploma project in Web Programming}
+
+% Choose one of the following for the purpose of the submission.
+\newcommand{\thePurpose}{Thesis Topic} % Use for a project idea
+%\newcommand{\thePurpose}{Project plan} % Use for a project plan
+
+% Redefine the company name as a variable for easier reference.
+\newcommand{\theCompany}{CompanyOrganizationName}
+
+% *** Do not touch the following lines. BEGIN. ***
+\title{\thePurpose\ for diploma project\\\vspace{1mm}\small{Version \theVersion}}
+\author{\textsc{\theCourse}}
+\date{\today}
+\begin{document}
+\maketitle
+\vspace*{-5mm}
+% *** END. Do not touch the lines above. ***
+
+% *** PLEASE START HERE ***
+\noindent % Do not delete this line or add an empty line below.
+\begin{tabular}{|l|l|p{10.4cm}|}
+\hline
+Title      		  & \multicolumn{2}{|p{13cm}|}{Provide a concise, specific and informative title} \\
+\hline
+Area      		  & \multicolumn{2}{|l|}{E.g., Industrial Economics} \\
+\hline\hline
+\multirow{4}{*}{Student 1}
+ & Name           & Your full name as given in Ladok \\\cline{2-3}
+ & E-Mail         & ...@student.bth.se \\\cline{2-3}
+ & Person nr      & YYMMDDXXXX \\\cline{2-3}
+ & Program        & Program you are registered in \\\cline{2-3}
+\hline
+\multirow{4}{*}{Student 2}
+ & Name           & Leave blank if you work alone \\\cline{2-3}
+ & E-Mail         &  \\\cline{2-3}
+ & Person nr      &  \\\cline{2-3}
+ & Program        &  \\\cline{2-3}
+\hline
+\multirow{3}{*}{Supervisor}
+ & Name \& title  & Leave blank if no supervisor is assigned. You might ask for a particular supervisor here. \\\cline{2-3}
+ & E-Mail         &  \\\cline{2-3}
+ & Department     &  \\
+\hline
+\multirow{3}{*}{Co-advisor}
+ & Name \& title  & Contact person at company or organization \\\cline{2-3}
+ & E-Mail/~phone  &  \\\cline{2-3}
+ & Company        & \theCompany \\
+\hline
+\end{tabular}
+
+\todo[inline]{Don't forget to delete the blue comment-boxes before submission.
+See \textbackslash usepackage-rows in the LaTeX-code.}
+\todo[inline]{You need to include and cite some references that are relevant for your work,
+at least in Section \ref{sec:intro} and Section \ref{sec:method}. This can include references to important and/or recent works in the area regarding key concepts and terminology, related work, research designs, etc. You do not need to cite the course literature \cite{berndtsson2007thesis,evans2014write,blomkvist2014metod,host2006att,trochim2015research}. These are added here just to show you how the citation marks and references should look like. Note that references are numbered in alphabetic order. More information about academic writing can be found in Evans et al.'s book \cite{evans2014write}.}
+
+
+\section{Introduction}
+\label{sec:intro}
+In the introduction, you should describe the field you are working in and eventually lead the reader to the specific problem that you intend to address in your thesis. It is important that your presentation is based on established knowledge and that it clearly identifies a relevant problem that is of general interest.
+
+Typically, an introduction proceeds from the general to the specific. As a rough ``guideline'', you can think of the following things that an introduction should do (not necessarily in the exact order described below).
+\begin{enumerate}
+    \item Establish the importance of the (general) field.
+    \item Provide relevant background facts or information.
+    \item Define key terminology (if required).
+    \item Present the problem area or research focus, i.e. moving from the general field (see 1.) to the specific area you are dealing with.
+    \item Give a brief overview over existing research/~contributions in the specific area you are dealing with.
+    \item Identify a gap in this work.
+    \item Describe the specific problem you will address (as a result from 6.).
+    \item Explain in which ways the problem (as described in 7.) is relevant.
+\end{enumerate}
+A sentence or two for each item should suffice for a project idea.
+
+
+\subsection{Ethical, societal and sustainability aspects}
+\label{sec:ethics}
+In the project plan, you should briefly discuss aspects regarding ethics, society and sustainability. If you think there are no such aspects that are relevant for
+your work, please argue why this is the case.
+
+Please note that subsections should be formatted and numbered like this one.
+The paragraphs of sections, subsections and subsections are not indented.
+
+
+\subsubsection{Example sub-subsection}
+You can introduce further sections, subsections or sub-subsections. Subsections beyond level 3 should be avoided.
+
+
+\section{Aim, objectives and thesis question(s)}
+\label{sec:aim}
+This section should contain concise and clear descriptions of your overall aim (goal),
+how that is broken down into more specific objectives (sub-goals) and how those are
+operationalized into answerable (research) questions and/or testable hypotheses.
+Please make sure that you will actually reach your overall goal by answering your questions.
+
+
+\section{Method}
+\label{sec:method}
+This section should describe the research design or methods you intend to use to gather the evidence (data) you need to solve the problem or answer the research questions, and explain why these
+methods are appropriate. If you intend to measure certain properties or attributes, you
+need to explain why these properties or attributes are relevant and how they could be measured
+in a reliable way.
+
+Please make sure to discuss whether there are aspects in your work that might require
+approval by an ethics committee (see Section \ref{sec:ethics}). This is particularly important
+when your research involves experiments with humans.
+
+
+\section{Expected outcomes}
+\label{sec:outcome}
+This section should briefly describe what you expect as an outcome and in which ways this outcome is important/helpful and for whom.
+
+
+\section{Time and activity plan}
+\label{sec:plan}
+This section should provide information about project planning and project tracking.
+Project planning means a list of tasks that will be carried out to reach your aim,
+and how these tasks are placed in time, i.e. a \textit{work breakdown structure}
+and a \textit{schedule}.
+
+Please include activities beyond just preparing and submitting the required documents.
+A trivial work breakdown structure like ``planning, data collection, analysis,
+report writing'' is not sufficient. You don't need to prepare a detailed weekly
+schedule, but you must try to be realistic. Make sure that you don't forget to
+schedule some time for unexpected delays.
+
+Project tracking means a description of how you intend to follow up you work and
+make it possible to check whether you are ``on track''. This should, among others,
+include a brief description of how you and your supervisor plan to organize
+the supervision.
+
+
+\section{Limitations and risk management}
+\label{sec:risks}
+This section should provide a description of the limitations of your
+work, and a brief analysis of \textit{risks}, i.e. what might go wrong. For each risk that
+is either serious or likely to happen, you should have a \textit{mitigation plan}, i.e.
+what you do to prevent risks and what do you do when they actually happen.
+Make sure to think about non-trivial risks.
+
+
+% All references are stored in a separate bib-file: thesis-refs.bib
+\bibliography{thesis-refs}
+\bibliographystyle{plain}
+
+
+% ``Agreement'' with company/ organization plus signatures
+% Only needed for projects in collaboration with external companies or organizations
+% Comment out when not needed
+\appendix
+\newpage
+%\input{company-signatures_sve} % På svenska
+\input{company-signatures_eng} % In English
+
+\end{document}
